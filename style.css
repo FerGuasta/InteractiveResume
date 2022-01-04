@@ -498,6 +498,61 @@ img{
 		transition: 0.5s;
 
 }
+
+.square:nth-child(4) span:nth-child(1)
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+	transition: 10s;
+	border: 2px solid #111;
+	animation: animate 6s linear infinite;
+}
+.square:nth-child(4):hover span:nth-child(1)
+{
+	border: none;
+	background: #69c400;
+		transition: 0.5s;
+
+}
+.square:nth-child(4) span:nth-child(2)
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+	transition: 10s;
+	border: 2px solid #111;
+	animation: animate 4s linear infinite;
+
+}
+.square:nth-child(4):hover span:nth-child(2)
+{
+	border: none;
+	background: #69c400;
+		transition: 0.5s;
+
+}
+.square:nth-child(4) span:nth-child(3)
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+	transition: 10s;
+	border: 2px solid #111;
+	animation: animate2 10s linear infinite;
+
+}
+.square:nth-child(4):hover span:nth-child(3)
+{
+	border: none;
+	background: #69c400;
+		transition: 0.5s;
+
+}
+
 @keyframes animate
 {
 	0%
